@@ -58,7 +58,7 @@ public class MoreApples
             .alwaysEat()
             .nutrition(3)
             .saturationMod(1f)
-            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, minutesToTicks(2), 0), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, minutesToTicks(3), 0), 1.0f)
             .effect(() -> new MobEffectInstance(MobEffects.DIG_SPEED, minutesToTicks(2), 0), 1.0f)
             .build())));
     public static final RegistryObject<Item> IRON_APPLE = ITEMS.register("iron_apple", () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
@@ -95,7 +95,7 @@ public class MoreApples
             .alwaysEat()
             .nutrition(4)
             .saturationMod(1.2f)
-            .effect(() -> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, minutesToTicks(2), 1), 1.0f)
+            .effect(() -> new MobEffectInstance(MobEffects.FIRE_RESISTANCE, minutesToTicks(3), 0), 1.0f)
             .build())));
 
     // Creates a creative tab with the id "examplemod:apples_tab" for the apples, that is placed after the food tab
