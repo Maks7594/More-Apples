@@ -15,6 +15,7 @@ Quartz Apple - Fire Resistance for 3min
 Coal Apple - good for early game mining and caving  
 Iron Apple - makes you a tank at the cost of movement speed  
 Emerald Apple - use before trading with villagers  
+Netherite Apple - use before a fight  
 Quartz Apple - use in the Nether  
 
 # Fabric? 1.21+? Backport?
