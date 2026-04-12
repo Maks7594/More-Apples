@@ -21,5 +21,8 @@ build
 eclipse
 run
 
+# scripts
+build.ps1
+
 # Files from Forge MDK
 forge*changelog.txt
